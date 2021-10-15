@@ -1,0 +1,21 @@
+# Camera positions are calculated with respect to the mesh 3D bounding box (which center is in 0,0,0)
+# Car body should be placed so that its center of mass (Mx=0, My=0, and its lowest Z coordinate/point = 0) 
+# Compute bounding box dimensions from the input mesh  
+TRUE
+# if above is false - use following dimensions of car 3D bounding box
+# width, lenght, height in [mm]
+1700	3800	1500
+# Parametrized camera positons and orientations (these numbers are multiplied with the above 3D BBox width height..
+# Mood of positioning: Options (lookat lookup, position and rotation
+lookatlookup
+#ID		X	Y	Z 	Rx	Ry	Rz  ili lookAt lookUp - proveriti kako se zadaje
+1 1.2 1.3 1.2
+1 1 2 3
+1 1.2 1.3 1.2
+1 1 2 31
+1.2 1.3 1.2
+1 1.2 1.3 1.2
+1 1 2 3
+1 1.2 1.3 1.2
+1 1.2 1.3 1.2
+10000001 1.1 0.3 1.2
