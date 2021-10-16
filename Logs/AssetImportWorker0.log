@@ -1889,3 +1889,423 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4788ms)
+		BeginReloadAssembly (3584ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3815.
+Total: 6.231612 ms (FindLiveObjects: 0.382670 ms CreateObjectMapping: 0.166449 ms MarkObjects: 5.498484 ms  DeleteObjects: 0.182636 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2802ms)
+		BeginReloadAssembly (1748ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3819.
+Total: 6.254761 ms (FindLiveObjects: 0.354631 ms CreateObjectMapping: 0.134246 ms MarkObjects: 5.569257 ms  DeleteObjects: 0.195379 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2879ms)
+		BeginReloadAssembly (1759ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3823.
+Total: 6.203367 ms (FindLiveObjects: 0.328133 ms CreateObjectMapping: 0.143529 ms MarkObjects: 5.514138 ms  DeleteObjects: 0.216198 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4393ms)
+		BeginReloadAssembly (3361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3827.
+Total: 6.450917 ms (FindLiveObjects: 0.347969 ms CreateObjectMapping: 0.120005 ms MarkObjects: 5.793195 ms  DeleteObjects: 0.188417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12359.658503 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_001.png
+  artifactKey: Guid(52919b1586bf7451d9d63505a53900fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_001.png using Guid(52919b1586bf7451d9d63505a53900fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6036bba0c5cdff00852c970e943fdd') in 0.050477 seconds 
+  Import took 0.057315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_006.png
+  artifactKey: Guid(a26defd2712d64f22a7e038891025758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_006.png using Guid(a26defd2712d64f22a7e038891025758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75e7ad8cf4325bf38d45eab99d59572') in 0.009126 seconds 
+  Import took 0.017860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Foreground Objects/Phase 1/Materials/craft_yarn_caron_01.mat
+  artifactKey: Guid(51b4d80673c7d477d8a0b29e605ec547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Foreground Objects/Phase 1/Materials/craft_yarn_caron_01.mat using Guid(51b4d80673c7d477d8a0b29e605ec547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18238b3adb8d5ca6ce959366884bec8') in 0.290396 seconds 
+  Import took 0.296275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_004.png
+  artifactKey: Guid(e5076cf97f65b453c931f2f80a64bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_004.png using Guid(e5076cf97f65b453c931f2f80a64bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac270a886a7e4789a467e2cbb13c8208') in 0.008716 seconds 
+  Import took 0.014513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_009.png
+  artifactKey: Guid(4676857e7c39c4651b18634cd1487f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_009.png using Guid(4676857e7c39c4651b18634cd1487f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcc3835247b5400a2b0cb1f901cd290') in 0.011354 seconds 
+  Import took 0.020646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_007.png
+  artifactKey: Guid(377196b30ed9b48508835c202400b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_007.png using Guid(377196b30ed9b48508835c202400b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab70f2674a5c33d7c66ba49a2398e3b') in 0.009479 seconds 
+  Import took 0.017168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_010.png
+  artifactKey: Guid(53373652782a549bdbe90b46b9b71f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_010.png using Guid(53373652782a549bdbe90b46b9b71f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5d9a1f7639ffa1f14dbf4e3188f4c4') in 0.010235 seconds 
+  Import took 0.017649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Red-Grapefruit/Red-Grapefruit_001.png
+  artifactKey: Guid(948c9a7e54fbb4788951ed6544bd21ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Red-Grapefruit/Red-Grapefruit_001.png using Guid(948c9a7e54fbb4788951ed6544bd21ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1c41955d173976ecb88e0da09de32a') in 0.008188 seconds 
+  Import took 0.016958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3f476ab718b1cf20d183dd9addfe7') in 0.006652 seconds 
+  Import took 0.013801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_001.png
+  artifactKey: Guid(9be0aa1cb0aab4836a0f2471ffba3eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_001.png using Guid(9be0aa1cb0aab4836a0f2471ffba3eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a21acfe1b6d4c6f91ea5949b156e46') in 0.010450 seconds 
+  Import took 0.019057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_009.png
+  artifactKey: Guid(df92a51497fa84a11a80f05565ee6c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_009.png using Guid(df92a51497fa84a11a80f05565ee6c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe52adf63f0b17296423acf147132bc') in 0.009195 seconds 
+  Import took 0.016913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Red-Grapefruit/Red-Grapefruit_002.png
+  artifactKey: Guid(3e7b53ab7f254437998a0f83d0f66d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Red-Grapefruit/Red-Grapefruit_002.png using Guid(3e7b53ab7f254437998a0f83d0f66d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f9ddd5c6786a8440a1819b0dfcbcc8') in 0.009969 seconds 
+  Import took 0.020141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_006.png
+  artifactKey: Guid(47d4fc972354b4bd387095f341d275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_006.png using Guid(47d4fc972354b4bd387095f341d275d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53351e1b803c267410ca84686a99ae49') in 0.009841 seconds 
+  Import took 0.018631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_008.png
+  artifactKey: Guid(e6e89f1fe5622458ea40ea10abf5e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_008.png using Guid(e6e89f1fe5622458ea40ea10abf5e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6f0dff21281fad95bf26852e17382a') in 0.009163 seconds 
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_008.png
+  artifactKey: Guid(526d646e1696f4cb7a74f05f6e0b385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_008.png using Guid(526d646e1696f4cb7a74f05f6e0b385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2e1d7c877f0d1e3dfc885bd6482f66') in 0.009506 seconds 
+  Import took 0.018599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_002.png
+  artifactKey: Guid(0accc1e86ea384770b933cf028ef184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_002.png using Guid(0accc1e86ea384770b933cf028ef184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f4d25887ba5ecc686d899719570b50') in 0.009809 seconds 
+  Import took 0.019588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_002.png
+  artifactKey: Guid(769e8eb0e361e4ce886d236ed619dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_002.png using Guid(769e8eb0e361e4ce886d236ed619dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aae76629d8b362c1d13a7973845006b') in 0.008920 seconds 
+  Import took 0.015667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_005.png
+  artifactKey: Guid(a96fe5b831cad4428973e7d8f86e6c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_005.png using Guid(a96fe5b831cad4428973e7d8f86e6c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820d11a36102d63641ec74513502500b') in 0.010444 seconds 
+  Import took 0.018524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_010.png
+  artifactKey: Guid(e922900488ca74c15bca3fb8b5a3ebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_010.png using Guid(e922900488ca74c15bca3fb8b5a3ebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc117994f2a89a4e2aa01b736a1ab75') in 0.008393 seconds 
+  Import took 0.017629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_003.png
+  artifactKey: Guid(1002557cb54c04d6f86a10fdf022e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Passion-Fruit/Passion-Fruit_003.png using Guid(1002557cb54c04d6f86a10fdf022e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25841b65b45973552eda5aaf24158e35') in 0.008753 seconds 
+  Import took 0.016857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_004.png
+  artifactKey: Guid(415e410b5200e4d6ca9fd62fa600397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_004.png using Guid(415e410b5200e4d6ca9fd62fa600397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf52d62b1e2f1493aca416952bfee1a') in 0.011145 seconds 
+  Import took 0.019346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_007.png
+  artifactKey: Guid(5caa53d5430cb4a54b041801ca360964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_007.png using Guid(5caa53d5430cb4a54b041801ca360964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d50dc7a330e70c4747eb9da7a370647') in 0.008861 seconds 
+  Import took 0.015928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e280d46112592ee70e7bdabbae46e7f') in 0.002639 seconds 
+  Import took 0.010143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_005.png
+  artifactKey: Guid(3d12558bd375b4cc3ab4c93ea76bb26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_005.png using Guid(3d12558bd375b4cc3ab4c93ea76bb26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c6035442c4734ac4e8577968aff992') in 0.008673 seconds 
+  Import took 0.016141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_003.png
+  artifactKey: Guid(ef64a862de38e47cc88ef6f94a9f4ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Perception/0.8.0-preview.4/Tutorial Files/Background Textures/Pear/Conference/Conference_003.png using Guid(ef64a862de38e47cc88ef6f94a9f4ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f60cc45148d7771f51e9808813954c') in 0.010121 seconds 
+  Import took 0.018468 seconds .
+

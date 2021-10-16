@@ -14,6 +14,17 @@ public class LoadConfigData : MonoBehaviour
     public string keypoints_path;
     public string semantic_masks_path;
     public string output_path;
+
+    public bool rgb;
+    public bool depth;
+    public bool flow;
+    public bool cls_id;
+    public bool img;
+    public bool layer;
+    public bool normals;
+    public bool keypts;
+    public bool BBox_3D;
+
     public bool exclude_incomplete;
     public int exclude_smaller_than;
     public int output_width;
@@ -34,6 +45,18 @@ public class LoadConfigData : MonoBehaviour
         keypoints_path  = configlines[5];                // line 7 is the keypoint path
         semantic_masks_path = configlines[8];               // line 9 is the semantic masks path
         output_path = configlines[11];                      // line 12 is the output path
+
+        string[] vars0 = configlines[13].Split('\t');
+        rgb = vars0[0]=="true";
+        depth = vars0[1]=="true";
+        flow = vars0[2]=="true";
+        cls_id = vars0[3]=="true";
+        img = vars0[4]=="true";
+        layer = vars0[5]=="true";
+        normals = vars0[6]=="true";
+        keypts = vars0[7]=="true";
+        BBox_3D = vars0[8]=="true";
+
         exclude_incomplete = configlines[15]=="True";
         exclude_smaller_than = int.Parse(configlines[17]);
         string[] vars = configlines[19].Split('\t');
