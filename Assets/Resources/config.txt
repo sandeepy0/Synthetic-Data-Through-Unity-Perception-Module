@@ -1,0 +1,24 @@
+# INPUTS
+# inputs folder 
+_inputs_folder
+# Camera positions file  (each camera position is in one line in corresponding txt file)
+camera_positions.txt
+# Keypoints folder (each keypoint is separate STL file)
+keypoints
+# Parsed car parts folder (each body part/class is separate STL file)
+semantic_masks
+# OUTPUTS
+# Output folder
+_output_folder
+# rgb,  depth, flow,  class id, img,  layer, normals, keypoints, 3D BBox
+  true  true   true   true      true  true   true     true       True
+# Exlude if whole car is not present on image plane
+True
+# Exclude if car occupies less percentage of an image
+22
+# cammera type, Focal Lenght, Sensor Type ?????? - need help from experieced person to define!!!
+Projection	40
+# output resolution (width, height)
+1280	1024
+# output format (options: jpg, png, jpeg)
+PNG

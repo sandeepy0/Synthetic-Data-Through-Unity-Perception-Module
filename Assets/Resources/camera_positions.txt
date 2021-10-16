@@ -9,13 +9,13 @@ TRUE
 # Mood of positioning: Options (lookat lookup, position and rotation
 lookatlookup
 #ID		X	Y	Z 	Rx	Ry	Rz  ili lookAt lookUp - proveriti kako se zadaje
-1 1.2 1.3 1.2
+1 1 1.3 1.2
 1 1 2 3
-1 1.2 1.3 1.2
+1 1 1.3 1.2
 1 1 2 31
-1.2 1.3 1.2
-1 1.2 1.3 1.2
+1 1 1.3 1.2
+1 1 1.3 1.2
 1 1 2 3
+1 1 1.3 1.2
 1 1.2 1.3 1.2
-1 1.2 1.3 1.2
-10000001 1.1 0.3 1.2
+10000001 1.2 0.3 1.2

@@ -28,7 +28,7 @@
         // Debug.Log("lines Length:");
         // Debug.Log(lines.Length);
         // string arrSegment = new ArraySegment<string>( lines, 10, lines.Length );
-        Debug.Log("Hello");
+        // Debug.Log("Hello");
        
 
         string[] vars = lines[6].Split('\t');
@@ -66,18 +66,23 @@
             // Debug.Log(line);
         // var line = lines[count].Trim();
         string[] vars = lines[count].Split(' ');
-        Debug.Log("Count " + count);
-        Debug.Log("vars.Length " + vars.Length);
+        // Debug.Log("Count " + count);
+        // Debug.Log("vars.Length " + vars.Length);
+
+
+        foreach (var line in vars)
+            Debug.Log(line);
 
         int index = int.Parse(vars[0]);
         float x = float.Parse(vars[1]);
         float y = float.Parse(vars[2]);
         float z = float.Parse(vars[3]);
 
-        Debug.Log("index:" + index + "|");
-        Debug.Log("x:" + x + "|");
-        Debug.Log("y:" + y + "|");
-        Debug.Log("z:" + z + "|");
+
+        // Debug.Log("index:" + index + "|");
+        // Debug.Log("x:" + x + "|");
+        // Debug.Log("y:" + y + "|");
+        // Debug.Log("z:" + z + "|");
 
         count += 1;
 
