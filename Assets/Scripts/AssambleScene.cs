@@ -80,6 +80,7 @@ public class AssambleScene : MonoBehaviour
         {
             Debug.Log("filename" + filename); 
             GameObject obj = new OBJLoader().Load(filename);
+            Labeling label = obj.AddComponent<Labeling>() as Labeling;
         }
 
     }
