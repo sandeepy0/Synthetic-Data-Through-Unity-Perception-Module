@@ -70,8 +70,8 @@
         // Debug.Log("vars.Length " + vars.Length);
 
 
-        foreach (var line in vars)
-            Debug.Log(line);
+        // foreach (var line in vars)
+        //     Debug.Log(line);
 
         int index = int.Parse(vars[0]);
         float x = float.Parse(vars[1]);
