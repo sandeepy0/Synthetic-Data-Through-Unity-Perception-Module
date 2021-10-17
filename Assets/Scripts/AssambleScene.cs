@@ -1,8 +1,12 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
-using System.IO;
+using Dummiesman;
+
 
 public class AssambleScene : MonoBehaviour
 {
@@ -34,9 +38,10 @@ public class AssambleScene : MonoBehaviour
     public string output_format;
 
     public string[] fileEntries;
-
     void Start()
     {
+
+        // Loading all config variables from config.txt
         configlines = File.ReadAllLines(configpath);
         input_path = configlines[2];                        // line 3 is the input path
         camera_positions_file_path = configlines[4];        // line 5 is the camara positions file path
@@ -65,11 +70,17 @@ public class AssambleScene : MonoBehaviour
         output_height = int.Parse(vars1[1]);
         output_format = configlines[23];
 
+
+        // Assembling the scene from semantic masks
+        Debug.Log("input_path:" + input_path);
+        Debug.Log("semantic_masks_path:" + semantic_masks_path);
         string [] fileEntries = Directory.GetFiles(input_path+semantic_masks_path);
         
         foreach (string filename in fileEntries)
+        {
             Debug.Log("filename" + filename); 
-
+            GameObject obj = new OBJLoader().Load(filename);
+        }
 
     }
 

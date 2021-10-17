@@ -6,7 +6,7 @@ Assets/Resources/camera_positions.txt
 # Keypoints folder (each keypoint is separate STL file)
 keypoints
 # Parsed car parts folder (each body part/class is separate STL file)
-semantic_masks
+semantic_masks/
 # OUTPUTS
 # Output folder
 _output_folder
