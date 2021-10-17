@@ -7,8 +7,8 @@
  
     //  public float rotationSpeed = 10;
         // public string[] lines = File.ReadAllLines("textFile");  
-
-    public string path = "Assets/Resources/camera_positions.txt";
+    public AssambleScene AssambleScene;
+    // public string path = "Assets/Resources/camera_positions.txt";
     public string[] lines;
     // public ArraySegment<string> arrSegment;
     public string[] arr;
@@ -23,7 +23,7 @@
         // Console.WriteLine(cwd);
         // Debug.Log("Hello");
 
-        lines = File.ReadAllLines(path);
+        lines = File.ReadAllLines(AssambleScene.camera_positions_file_path);
         // arr = new ArraySegment<string>(lines, 10, lines.Length);
         // Debug.Log("lines Length:");
         // Debug.Log(lines.Length);

@@ -7,7 +7,7 @@ using System.IO;
 public class AssambleScene : MonoBehaviour
 {
     // Start is called before the first frame update
-    public string path = "Assets/Resources/config.txt";
+    public string configpath = "Assets/Resources/config.txt";
     public string[] configlines;
     public string input_path;
     public string camera_positions_file_path;
@@ -33,9 +33,11 @@ public class AssambleScene : MonoBehaviour
     public int focal_length;
     public string output_format;
 
+    public string[] fileEntries;
+
     void Start()
     {
-        configlines = File.ReadAllLines(path);
+        configlines = File.ReadAllLines(configpath);
         input_path = configlines[2];                        // line 3 is the input path
         camera_positions_file_path = configlines[4];        // line 5 is the camara positions file path
         keypoints_path  = configlines[5];                   // line 7 is the keypoint path
@@ -62,6 +64,12 @@ public class AssambleScene : MonoBehaviour
         output_width = int.Parse(vars1[0]);
         output_height = int.Parse(vars1[1]);
         output_format = configlines[23];
+
+        string [] fileEntries = Directory.GetFiles(input_path+semantic_masks_path);
+        
+        foreach (string filename in fileEntries)
+            Debug.Log("filename" + filename); 
+
 
     }
 

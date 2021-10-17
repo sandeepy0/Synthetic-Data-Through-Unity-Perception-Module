@@ -1,8 +1,8 @@
 # INPUTS
 # inputs folder 
-_inputs_folder
+Assets/Resources/Inputs/
 # Camera positions file  (each camera position is in one line in corresponding txt file)
-camera_positions.txt
+Assets/Resources/camera_positions.txt
 # Keypoints folder (each keypoint is separate STL file)
 keypoints
 # Parsed car parts folder (each body part/class is separate STL file)
