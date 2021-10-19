@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Dummiesman;
-
+// using Labeling;
 
 public class AssambleScene : MonoBehaviour
 {
@@ -14,7 +14,7 @@ public class AssambleScene : MonoBehaviour
     public string configpath = "Assets/Resources/config.txt";
     public string[] configlines;
     public string input_path;
-    public string camera_positions_file_path;
+    public string camera_positions_file_path="Assets/Resources/camera_positions.txt";
     public string keypoints_path;
     public string semantic_masks_path;
     public string output_path;
@@ -38,6 +38,7 @@ public class AssambleScene : MonoBehaviour
     public string output_format;
 
     public string[] fileEntries;
+    // Camera mainCamera = Camera.main;
     void Start()
     {
 
@@ -72,15 +73,19 @@ public class AssambleScene : MonoBehaviour
 
 
         // Assembling the scene from semantic masks
-        Debug.Log("input_path:" + input_path);
-        Debug.Log("semantic_masks_path:" + semantic_masks_path);
+        // Debug.Log("input_path:" + input_path);
+        // Debug.Log("semantic_masks_path:" + semantic_masks_path);
         string [] fileEntries = Directory.GetFiles(input_path+semantic_masks_path);
         
         foreach (string filename in fileEntries)
         {
-            Debug.Log("filename" + filename); 
+            // Debug.Log("filename" + filename); 
             GameObject obj = new OBJLoader().Load(filename);
-            Labeling label = obj.AddComponent<Labeling>() as Labeling;
+            Labeling label = obj.AddComponent<Perception/Labeling/Labeling>().enabled = true;
+
+
+            // Labeling label = obj.AddComponent("Labeling");
+            // Labeling label = obj.AddComponent<Labeling>();
         }
 
     }
@@ -89,5 +94,6 @@ public class AssambleScene : MonoBehaviour
     void Update()
     {
         // Debug.Log("Update of LoadConfigData");
+        // mainCamera
     }
 }

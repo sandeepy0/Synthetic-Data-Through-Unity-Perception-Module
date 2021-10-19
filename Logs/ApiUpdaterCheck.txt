@@ -338,3 +338,134 @@ C# parse time         : 182ms
 candidates check time : 31ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 19-10-2021 22:06:15 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /media/sandeep/Unity/Projects/Synthetic-Data-Through-Unity-Perception-Module/Library/ScriptAssemblies/Unity.Simulation.Client.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <f4220ae6b779455d88a01cbcc3c694c1>:0 
+	Cannot resolve dependency to assembly because it has not been preloaded. When using the ReflectionOnly APIs, dependent assemblies must be pre-loaded or loaded on demand through the ReflectionOnlyAssemblyResolve event.
+
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /media/sandeep/Unity/Projects/Synthetic-Data-Through-Unity-Perception-Module/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <f4220ae6b779455d88a01cbcc3c694c1>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /media/sandeep/Unity/Projects/Synthetic-Data-Through-Unity-Perception-Module/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <f4220ae6b779455d88a01cbcc3c694c1>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 113.51ms
+moved types parse time: 51ms
+candidates parse time : 1ms
+C# parse time         : 280ms
+candidates check time : 43ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 19-10-2021 22:33:20 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 42.097ms
+moved types parse time: 42ms
+candidates parse time : 1ms
+C# parse time         : 178ms
+candidates check time : 33ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 19-10-2021 22:36:02 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 45.575ms
+moved types parse time: 43ms
+candidates parse time : 0ms
+C# parse time         : 191ms
+candidates check time : 49ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 19-10-2021 23:10:13 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 64.901ms
+moved types parse time: 43ms
+candidates parse time : 1ms
+C# parse time         : 167ms
+candidates check time : 26ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 19-10-2021 23:20:19 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 56.758ms
+moved types parse time: 44ms
+candidates parse time : 1ms
+C# parse time         : 176ms
+candidates check time : 27ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 19-10-2021 23:39:35 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 54.084ms
+moved types parse time: 41ms
+candidates parse time : 1ms
+C# parse time         : 177ms
+candidates check time : 30ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 20-10-2021 00:01:10 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 56.714ms
+moved types parse time: 40ms
+candidates parse time : 1ms
+C# parse time         : 177ms
+candidates check time : 36ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 20-10-2021 00:10:57 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 54.422ms
+moved types parse time: 46ms
+candidates parse time : 1ms
+C# parse time         : 202ms
+candidates check time : 40ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 20-10-2021 00:11:23 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 61.602ms
+moved types parse time: 44ms
+candidates parse time : 1ms
+C# parse time         : 180ms
+candidates check time : 27ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 20-10-2021 00:40:31 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 69.705ms
+moved types parse time: 50ms
+candidates parse time : 1ms
+C# parse time         : 210ms
+candidates check time : 37ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 20-10-2021 00:42:52 : Starting /media/sandeep/Unity/Unity_Editors/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 58.832ms
+moved types parse time: 44ms
+candidates parse time : 0ms
+C# parse time         : 186ms
+candidates check time : 32ms
+console write time    : 0ms
+
