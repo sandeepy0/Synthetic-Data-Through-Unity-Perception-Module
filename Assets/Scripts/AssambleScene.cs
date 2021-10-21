@@ -76,18 +76,37 @@ public class AssambleScene : MonoBehaviour
         // Debug.Log("input_path:" + input_path);
         // Debug.Log("semantic_masks_path:" + semantic_masks_path);
         string [] fileEntries = Directory.GetFiles(input_path+semantic_masks_path);
-        
+        GameObject[] masks = new GameObject[fileEntries.Length];
+        int count = 0;
         foreach (string filename in fileEntries)
         {
-            // Debug.Log("filename" + filename); 
-            GameObject obj = new OBJLoader().Load(filename);
-            Labeling label = obj.AddComponent<Perception/Labeling/Labeling>().enabled = true;
+            if(filename.Substring(filename.Length - 3) != "obj")
+                continue;
 
+            Debug.Log("filename" + count + " : " + filename); 
+            masks[count] = new OBJLoader().Load(filename);
+            
+            GameObject child = masks[count].transform.GetChild(0).gameObject;
+            child.AddComponent<MeshRenderer>();
+            
+            // foreach (Transform child in transforms)
+            // {
+            //    child.AddComponent<MeshRenderer>(); 
+            // }
+            // child = masks[count].transform.GetChild(0).gameObject;
+            // child.AddComponent<MeshRenderer>();
+            // //go thorugh the list and add the component.
+            // for(int i = 0; i < childrenList.Count; i++) {
+            //     MeshRenderer sc = childrenList[i].AddComponent<MeshRenderer>();
+            // }
 
+            // Labeling label = obj.AddComponent<Perception/Labeling/Labeling>().enabled = true;
+
+            count+=1;
+            Debug.Log(count);
             // Labeling label = obj.AddComponent("Labeling");
             // Labeling label = obj.AddComponent<Labeling>();
         }
-
     }
 
     // Update is called once per frame
